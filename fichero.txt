@@ -1,2 +1,1 @@
-texto
-Jorge es mongolo :D
+modifico tatrdeJorge es mongolo :D
