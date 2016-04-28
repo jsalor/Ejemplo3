@@ -32,14 +32,19 @@ public class EjercicioTest {
 	@Parameters
 	public static ArrayList<StringArrayUtils[]> misPruebas(){
 		ArrayList<StringArrayUtils[]> parametros = new ArrayList<StringArrayUtils[]>();
+<<<<<<< HEAD
 		StringArrayUtils p1 = new StringArrayUtils(new String[] {"unos","retraso","el","des","al","lado"});
 		StringArrayUtils p2 = new StringArrayUtils(new String[] {"1234567","dos","123","456","789012"});
+=======
+		StringArrayUtils p1 = new StringArrayUtils(new String[] {"unos","por","apalapucia","de","al","lado"});
+		StringArrayUtils p2 = new StringArrayUtils(new String[] {"1234567","dos"});
+>>>>>>> 69bfe8617a08e04596e62cfb11248fe9f0528c4b
 		StringArrayUtils[] arr1 = new StringArrayUtils[2];
 		arr1[0]= p1;
 		arr1[1]=p2;
 		parametros.add(arr1);
 		return parametros;		
-		
+		//JORGE EL APALAPUCIANO
 	}	
 	
 	
