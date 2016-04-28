@@ -32,8 +32,8 @@ public class EjercicioTest {
 	@Parameters
 	public static ArrayList<StringArrayUtils[]> misPruebas(){
 		ArrayList<StringArrayUtils[]> parametros = new ArrayList<StringArrayUtils[]>();
-		StringArrayUtils p1 = new StringArrayUtils(new String[] {"unos","retraso","el","de","al","lado"});
-		StringArrayUtils p2 = new StringArrayUtils(new String[] {"1234567","dos"});
+		StringArrayUtils p1 = new StringArrayUtils(new String[] {"unos","retraso","el","des","al","lado"});
+		StringArrayUtils p2 = new StringArrayUtils(new String[] {"1234567","dos","123","456","789012"});
 		StringArrayUtils[] arr1 = new StringArrayUtils[2];
 		arr1[0]= p1;
 		arr1[1]=p2;
@@ -45,25 +45,20 @@ public class EjercicioTest {
 	
 	
 
+	
+
 	@Test
-	public void testStringArrayUtils() {
-		
+	public void testGetMaxLength() {
 		Assert.assertEquals(prueba1.getMaxLength().length(), resultado1.getMaxLength().length());
-		
-		
+	}
+
+    @Test
+	public void testGetTotalLength() {
+    	Assert.assertEquals(prueba1.getTotalLength() , resultado1.getTotalLength());
+    	//pongo algo
 	}
 
 	/*@Test
-	public void testGetMaxLength() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetTotalLength() {
-		fail("Not yet implemented");
-	}
-
-	@Test
 	public void testGetIndexOf() {
 		fail("Not yet implemented");
 	}*/
