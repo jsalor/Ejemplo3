@@ -32,7 +32,7 @@ public class EjercicioTest {
 	@Parameters
 	public static ArrayList<StringArrayUtils[]> misPruebas(){
 		ArrayList<StringArrayUtils[]> parametros = new ArrayList<StringArrayUtils[]>();
-		StringArrayUtils p1 = new StringArrayUtils(new String[] {"unos","retraso","el","de","al","lado"});
+		StringArrayUtils p1 = new StringArrayUtils(new String[] {"unos","por","apalapucia","de","al","lado"});
 		StringArrayUtils p2 = new StringArrayUtils(new String[] {"1234567","dos"});
 		StringArrayUtils[] arr1 = new StringArrayUtils[2];
 		arr1[0]= p1;
@@ -53,7 +53,7 @@ public class EjercicioTest {
 		
 	}
 
-	/*@Test
+	@Test
 	public void testGetMaxLength() {
 		fail("Not yet implemented");
 	}
